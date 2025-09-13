@@ -1,11 +1,17 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Header from "./Header";
+import Main from "./Main";
+import Footer from "./Footer";
+import Nav from "./Nav";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Louisa</h1>
-    </div>
+    <>
+      <Nav />
+      <Header />
+      <Main />
+      <Footer />
+    </>
   );
 }
 
